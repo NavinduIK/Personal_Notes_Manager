@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".Notes">
+
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notes"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:hint="@string/title"
+        android:inputType="text"
+        android:text="@string/title" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:hint="@string/content"
+        android:inputType="text"
+        android:text="@string/content" />
+
+    <Button
+        android:id="@+id/btnSaveN"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:hint="@string/save"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/btnUpdateN"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:hint="@string/update"
+        android:text="@string/update" />
+</LinearLayout>
